@@ -1,41 +1,35 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
 body { 
     background-color: snow;
     margin:0;
+    color:#333
 }
-/*
-a:link {
-    color: snow;
-    background-color: #3d6dce;
-    padding: 15px 25px;
+
+h1 {
+    margin:3%;
     text-align: center;
-    text-decoration: none;
-    display:inline-block;
+    color: #333;
 }
-a:visited {
-    color: snow;
-    background-color: #99b0e3;
-    padding: 15px 25px;
+h2{
+    margin:2%;
     text-align: center;
-    text-decoration: none;
-    display:inline-block;
+    color: #333;
 }
-a:hover {
-    color: snow;
-    background-color: #99b0e3;
-    padding: 15px 25px;
-    text-align: center;
-    text-decoration: none;
-    display:inline-block;
+h3{
+    margin: 1%;
+    color: #333;
+    margin-left: 10%;
 }
-a:active {
-    color: snow;
-    background-color: #3d6dce;
-    padding: 15px 25px;
-    text-align: center;
-    text-decoration: none;
-    display:inline-block;
+p {
+    margin-left:10%;
+    margin-right:10%;
+    color:#333;
 }
-*/
 p,pre {
     font-family:"Times New Roman";
 }
@@ -74,3 +68,69 @@ ul.topnav li.right {float: right;}
     ul.topnav li.right, 
     ul.topnav li {float: none;}
 }
+
+header {
+    background-color: #333;
+    padding: 30px;
+    text-align:left;
+    font-size: 35px;
+    color:snow;
+}
+
+nav{
+    float: left;
+    width:20%;
+    background-color: #7e7e7e;
+    padding: 20px;
+    height: 100%;
+    position: fixed;
+}
+
+nav ul{
+    list-style-type: none;
+    padding: 0;
+}
+
+article {
+    margin-left: 20%;
+    float: left;
+    padding: 20px;
+    width: 80%;
+    background-color: #f1f1f1;
+}
+
+section::after{
+    content: "";
+    display: table;
+    clear:both;
+}
+
+footer{
+    background-color: #333;
+    padding: 10px;
+    text-align: center;
+    color: snow;
+}
+
+/* ------ link ------*/
+a:link {
+    color: #8f8fad;
+    background-color: transparent;
+    text-decoration: none;
+  }
+  a:visited {
+    color: #595966;
+    background-color: transparent;
+    text-decoration: none;
+  }
+  a:hover {
+    color: black;
+    background-color: transparent;
+    text-decoration: underline;
+  }
+  a:active {
+    color: #595966;
+    background-color: transparent;
+    text-decoration: underline;
+  }
+/* ------ link end ------ */
